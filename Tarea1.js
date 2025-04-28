@@ -22,8 +22,8 @@ console.log("---------------------------")
 console.log("\n");
 console.log("Suma de 5+8: ",a+b);
 console.log("Resta de 5-8: ",a-b);
-console.log("Multiplicacion de 5*8: ",5*8);
-console.log("Division de 5/8: ",5/8);
+console.log("Multiplicacion de 5*8: ",a*b);
+console.log("Division de 5/8: ",a/b);
 
 console.log("\n---------------------------\n")
 
