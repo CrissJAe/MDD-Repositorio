@@ -1,4 +1,4 @@
-
+//Ejercicio 1
 const nombre = "Flopi";
 let edad = 22;
 let mascotas = true;
@@ -12,6 +12,7 @@ if (mascotas === true) {
   console.log('No tienes mascotas.');
 }
 
+//Ejercicio 2
 const a = 5;
 const b = 8;
 
@@ -26,6 +27,7 @@ console.log("Division de 5/8: ",5/8);
 
 console.log("\n---------------------------\n")
 
+//Ejercicio 3
 const readlineSync = require('readline-sync');
 const persona = readlineSync.question("Ingrese su nombre: ");
 console.log("-------------------------------")
@@ -39,6 +41,7 @@ saludo(persona);
 
 console.log("\n---------------------------\n")
 
+//Ejercicio 4
 const frutas = ["Pera","Manzana","Sandia","Frutilla","Arandano"];
 
 for(let i=0; i<frutas.length;i++)
@@ -48,6 +51,7 @@ for(let i=0; i<frutas.length;i++)
 
 console.log("\n---------------------------\n")
 
+//Ejercicio 5
 const numeros = [2,3,5];
 
 const numpordos = numeros.map(function(num){
@@ -58,6 +62,7 @@ console.log(numpordos);
 
 console.log("\n---------------------------\n")
 
+//Ejercicio 6
 const people = [
   {
     firstname: "Cristopher",
@@ -77,6 +82,7 @@ people.forEach(gente => {
 
 console.log("\n---------------------------\n")
 
+//Ejercicio 7
 const x = [1,3,5,7,8,2,9];
 
 const mayoresque = x.filter(function(y) {
@@ -88,6 +94,7 @@ console.log("Arreglo con numeros mayores que 5: "+mayoresque);
 
 console.log("\n---------------------------\n")
 
+//Ejercicio 8
 const sum = [1,3,5,7,8,2,9];
 
 const sumatotal = sum.reduce(function(acumulador, sumita) {
@@ -99,6 +106,7 @@ console.log("Suma total del arreglo: "+sumatotal);
 
 console.log("\n---------------------------\n")
 
+//Ejercicio 9
 async function esperarMensaje() {
   await new Promise(resolve => setTimeout(resolve, 2000));
   
